@@ -25,3 +25,8 @@ The API documentation can be found here https://apidocs.os.uk/docs/os-places-ove
 ## Known issues and limitations
 
 The Match and Cleanse resources are not part of this connector as this has primarliy been designed as an address query tool and not a database cleansing tool within Power Platform.
+
+## FAQ
+
+If you have any questions about using this connector please see our FAQs:
+https://developer.ordnancesurvey.co.uk/os-apis-developer-portal-faqs
