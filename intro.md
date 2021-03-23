@@ -12,9 +12,15 @@ To find out more about subscription place options contact Ordnance Survey here: 
 
 ## Getting started with your connector
 The API documentation can be found here https://apidocs.os.uk/docs/os-places-overview
-* Perform a free text address search
-
-    OnSelect – Set (searchResults, OSPlaces.Find ('Search Bar'.Text).results) & UpdateContext({NoSearch: true})
+* Perform a free text address search in power apps:
+    This can be done by adding a text box and a button to a simple canvas. By setting the button's OnSelect to:
+    
+    Set (searchResults, OSPlaces.Find ('Search Bar'.Text).results) & UpdateContext({NoSearch: true})
+    
+    The results from the search bar can be sent to the OSPlaces.Find definition and the results are stored in a variable called searchResults.
+    The variable can be displayed as a gallery or data table in the canvas.
+    
+    This approach is suitable for Find, Postcode, UPRN and coordinate defintions and is a good way to get started with the connector.
 
 ## Known issues and limitations
 
